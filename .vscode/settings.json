@@ -1,8 +1,7 @@
 {
     "python.pythonPath": "C:\\Users\\lukas\\anaconda3\\envs\\djangovenv\\python.exe",
     "python.condaPath": "C:\\Users\\lukas\\anaconda3\\Scripts\\conda.exe",
-    "terminal.integrated.env.windows": {
-        "CONDA_DEFAULT_ENV": "djangovenv",
-        "PATH": "C:\\Users\\lukas\\anaconda3\\envs\\djangovenv\\Scripts;${env:PATH}"
-    }
+    "terminal.integrated.shellArgs.windows": [
+        "/K", "C:\\Users\\lukas\\anaconda3\\Scripts\\activate.bat C:\\Users\\lukas\\anaconda3\\envs\\djangovenv"
+    ]
 }
