@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Liste der Tierheime
+{% endblock %}
+
+{% block content %}
+
+{# TODO: Add link to registration page #}
+<div>
+    <a href="{% url 'dog_register' %}">zur Adoption freigegebenen Hund registrieren</a>
+</div>
+
+<h2>Liste der Tierheime</h2>
+<div>Hier ist die Liste der registrierten Tierheime</div>
+    {% for shelter in shelters %}
+        <div>
+            <a href="{% url 'shelter_detail' shelter.id %}">
+                {{shelter.name}}
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
