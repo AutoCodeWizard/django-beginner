@@ -6,7 +6,7 @@ Tierheime
 
 {% block content %}
 <h2>{{ shelter.name }}</h2>
-<div>Der Standort ist {{ shelter.location }}</div>
+<div>Standort:  {{ shelter.location }}</div>
 {% if shelter.dog_set.all %}
     <div>Hier ist die Liste der verfügbaren Hunde:</div>
     {% for dog in shelter.dog_set.all %}
