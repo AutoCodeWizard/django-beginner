@@ -41,3 +41,13 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 Nun sollte die Webseite unter `http://localhost:8000/` erreichbar sein.
+
+
+
+
+```bash
+python manage.py createsuperuser
+```
+
+http://localhost:8000/admin besuchen
+
