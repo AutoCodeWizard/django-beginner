@@ -1,7 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from . import models
 
-# TODO: Import generic views
 from django.views import generic
 
 # Create your views here.
