@@ -12,7 +12,7 @@ git clone https://github.com/AutoCodeWizard/django-beginner.git
 cd django-beginner
 ```
 ```bash
-# um die git Verfolgung ersmal auszuschalten
+# um die git Verfolgung erstmal auszuschalten
 rd /S /Q .git
 ```
 
