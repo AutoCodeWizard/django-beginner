@@ -1,7 +1,0 @@
-{
-    "python.pythonPath": "C:\\Users\\lukas\\anaconda3\\envs\\djangovenv\\python.exe",
-    "python.condaPath": "C:\\Users\\lukas\\anaconda3\\Scripts\\conda.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/K", "C:\\Users\\lukas\\anaconda3\\Scripts\\activate.bat C:\\Users\\lukas\\anaconda3\\envs\\djangovenv"
-    ]
-}
