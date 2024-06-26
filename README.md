@@ -45,3 +45,4 @@ pip install -r requirements.txt
 ```bash
 python manage.py runserver
 ```
+Nun sollte die Webseite unter `http://localhost:8000/` erreichbar sein.
