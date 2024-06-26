@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    # TODO: Register URLconf
     path('', include('dog_shelters.urls')),
     path('admin/', admin.site.urls),
 ]
