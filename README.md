@@ -15,11 +15,6 @@ cd django-beginner
 # um die git Verfolgung ersmal auszuschalten
 rd /S /Q .git
 ```
-```bash
-# um den Ordner nun in vscode zu öffnen
-code .
-# Leerzeichen nicht vergessen
-```
 
 ## Virtuelle Umgebung erstellen und verwalten
 
