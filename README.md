@@ -15,11 +15,6 @@ cd django-beginner
 # um die git Verfolgung ersmal auszuschalten
 rd /S /Q .git
 ```
-```bash
-# um den Ordner nun in vscode zu öffnen
-code .
-# Leerzeichen nicht vergessen
-```
 
 ## Virtuelle Umgebung erstellen und verwalten
 
@@ -46,3 +41,13 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 Nun sollte die Webseite unter `http://localhost:8000/` erreichbar sein.
+
+
+
+
+```bash
+python manage.py createsuperuser
+```
+
+http://localhost:8000/admin besuchen
+
