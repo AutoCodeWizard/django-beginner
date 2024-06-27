@@ -23,3 +23,6 @@ class DogCreateView(generic.CreateView):
     model = models.Dog
     template_name = 'dog_form.html'
     fields = ['shelter', 'name', 'description']
+
+def home(request):
+    return shelter_list(request) 

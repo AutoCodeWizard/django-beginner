@@ -60,6 +60,12 @@
                 <h3>Ein neues Zuhause für Hunde</h3>
             </div>
         </section>
+        
+        <!-- Home Button hinzufügen -->
+        <nav>
+            <a href="{% url 'home' %}" class="btn btn-primary">Home</a>
+        </nav>
+        
         {% block content %}
         {% endblock %}    
     </article>
